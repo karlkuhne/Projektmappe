@@ -1,4 +1,6 @@
-﻿class Karte
+﻿// das ist kein UNO sondern MauMau! Und Tschüss.
+
+class Karte
 {
     public string Symbol { get; set; }
     public string Farbe { get; set; }
