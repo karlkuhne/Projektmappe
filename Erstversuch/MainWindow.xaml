@@ -1,0 +1,19 @@
+﻿<Window x:Class="Erstversuch.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Erstversuch"
+        mc:Ignorable="d"
+        Title="HalloFHD" Height="450" Width="800"
+        KeyDown="Window_KeyDown"
+        KeyUp="Window_KeyUp">
+    <Canvas Name ="Spielfeld">
+        <Ellipse HorizontalAlignment="Left" Height="30" Stroke="Black" Fill="Red" VerticalAlignment="Top" Width="30" Name="Ball" Canvas.Left="22" Canvas.Top="21"/>
+        <Rectangle Name="PaddleLinks" Height="100" Stroke="Black" Canvas.Top="167" Width="23" Fill="Black" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+        <Rectangle Name="PaddleRechts" Height="100" Stroke="Black" Canvas.Top="167" Width="23" Fill="Black" HorizontalAlignment="Left" VerticalAlignment="Center" Canvas.Left="767"/>
+        <Label Name="LabelPlayer1Punkte" Content="0" Canvas.Left="384" Canvas.Top="25" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+        <Label Name="LabelPlayer2Punkte" Content="0" Canvas.Left="405" Canvas.Top="25" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+
+    </Canvas>
+</Window>
