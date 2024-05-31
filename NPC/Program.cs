@@ -1,5 +1,7 @@
 ﻿using System.Threading.Channels;
 
+// das ist alles nur geklaut
+
 class NPC
 {
     //name, alter, vater, mutter
