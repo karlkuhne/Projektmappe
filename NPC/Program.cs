@@ -1,6 +1,6 @@
 ﻿using System.Threading.Channels;
 
-// das ist alles nur geklaut
+// Und das ist alles nur geklaut
 
 class NPC
 {
